@@ -1,0 +1,6 @@
+{
+ :paths ["src"]
+
+ :aliases {:nREPL
+          {:extra-deps
+            {nrepl/nrepl {:mvn/version "1.4.0"}}}}}
