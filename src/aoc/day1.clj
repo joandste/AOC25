@@ -11,6 +11,6 @@
                            (= direction "R") (+ dial rotation)) 100)]
       (recur (next input)
               value 
-             (if (= 0 value) (inc acc) acc))))))
+             (if (= 0 value) (inc acc) acc)))))
 
 (dial input 50 0)

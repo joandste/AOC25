@@ -21,6 +21,5 @@
         b (subs string middle)]
     (when (= a b) true))))
 
-
 (id-check input 0)
 
